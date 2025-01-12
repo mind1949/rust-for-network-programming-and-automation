@@ -163,6 +163,7 @@ dependencies = [
 name = "ch06"
 version = "0.1.0"
 dependencies = [
+ "netlink-sys",
  "petgraph",
 ]
 
@@ -766,6 +767,17 @@ dependencies = [
  "security-framework",
  "security-framework-sys",
  "tempfile",
+]
+
+[[package]]
+name = "netlink-sys"
+version = "0.8.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "16c903aa70590cb93691bf97a767c8d1d6122d2cc9070433deb3bbf36ce8bd23"
+dependencies = [
+ "bytes",
+ "libc",
+ "log",
 ]
 
 [[package]]
